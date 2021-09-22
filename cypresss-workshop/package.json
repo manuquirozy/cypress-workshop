@@ -1,0 +1,26 @@
+{
+  "name": "workshop-cypress",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "cypress"
+  ],
+  "author": "Manuela Quiroz <manuquirozy@gmail.com> (manuquirozy)",
+  "license": "MIT",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^5.9.1",
+    "cypress": "^8.4.0",
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.52.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
