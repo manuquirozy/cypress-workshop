@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "lint": "tslint --project cypress/tsconfig.json cypress/**/*.ts"
+    "lint": "tslint --project cypress/tsconfig.json cypress/**/*.ts",
+    "open": "cypress open"
   },
   "keywords": [
     "ui-testing",
@@ -17,11 +18,11 @@
   "license": "MIT",
   "dependencies": {
     "@cypress/webpack-preprocessor": "^5.9.1",
-    "cypress": "^8.4.0",
-    "ts-loader": "^9.2.5",
-    "webpack": "^5.52.1"
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.53.0"
   },
   "devDependencies": {
+    "cypress": "^8.4.1",
     "tslint": "^6.1.3",
     "tslint-config-airbnb": "^5.11.2",
     "typescript": "^4.4.3"
